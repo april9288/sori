@@ -1,0 +1,29 @@
+{
+  "name": "sori",
+  "version": "1.0.0",
+  "description": "speech recognition project with react.js + IBM watson speech to text",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/april9288/sori.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/april9288/sori/issues"
+  },
+  "homepage": "https://github.com/april9288/sori#readme",
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-scripts": "^1.1.1",
+    "recharts": "^1.0.0-beta.10",
+    "watson-speech": "^0.34.1"
+  }
+}
