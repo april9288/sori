@@ -18,10 +18,10 @@ const Personas = ({personas}) => {
 		return (
 		<div>
 		<h3>Your most likely personality types are... </h3>
-		<h1 style={{color: "#4C73DD"}}>{sorted_data[0][0]}</h1>
-		<h2 style={{color: "#4C73DD"}}>{sorted_data[1][0]}</h2>
-		<h1 style={{color: "#84a0ed"}}>{sorted_data[2][0]}</h1>
-		<h3 style={{color: "#8f9cc1"}}>{sorted_data[3][0]}</h3>
+		<h1 style={{color: "#4C73DD"}}>{sorted_data[0][0]}  <span class="badge badge-pill badge-primary">{Math.trunc(sorted_data[0][1]*100) + "%"}</span></h1>
+		<h2 style={{color: "#4C73DD"}}>{sorted_data[1][0]}  <span class="badge badge-pill badge-primary">{Math.trunc(sorted_data[1][1]*100) + "%"}</span></h2>
+		<h3 style={{color: "#84a0ed"}}>{sorted_data[2][0]}  <span class="badge badge-pill badge-primary">{Math.trunc(sorted_data[2][1]*100) + "%"}</span></h3>
+		<h3 style={{color: "#8f9cc1"}}>{sorted_data[3][0]}  <span class="badge badge-pill badge-primary">{Math.trunc(sorted_data[3][1]*100) + "%"}</span></h3>
 		</div>
 			);
 
