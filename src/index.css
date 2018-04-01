@@ -6,6 +6,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     .presentation-title {
-        font-size: 6em;
+        font-size: 5em;
     }
 }
