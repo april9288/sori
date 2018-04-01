@@ -90,7 +90,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h3 style={{margin: "30px 0"}} className='typography-line'>To start, press [SPEAK] button. And press [Stop] to stop.</h3>
+        <h3 style={{margin: "30px 0"}} className='typography-line'>To start, press [SPEAK]. Introduce yourself. When you finish, press [STOP].</h3>
         <button className='btn btn-outline-primary btn-round' onClick={this.onClick}>Speak</button>
         <button className='btn btn-outline-danger btn-round' id="stop">Stop</button>
         <button className='btn btn-outline-warning btn-round' onClick={this.clear}>Clear All</button>
