@@ -1,10 +1,9 @@
 {
   "name": "sori",
-  "homepage": "https://april9288.github.io/sori/",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://april9288.github.io/sori/",
   "description": "Speech Recognition Web App built with IBM Watson api and Indico api",
-  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -23,11 +22,5 @@
     "react-scripts": "^2.0.4",
     "recharts": "^1.0.0-beta.10",
     "watson-speech": "^0.34.1"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
