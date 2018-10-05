@@ -1,29 +1,33 @@
 {
   "name": "sori",
+  "homepage": "https://april9288.github.io/sori/",
+  "private": true,
   "version": "1.0.0",
-  "description": "speech recognition project with react.js + IBM watson speech to text",
-  "main": "index.js",
+  "description": "Speech Recognition Web App built with IBM Watson api and Indico api",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/april9288/sori.git"
-  },
-  "author": "",
+  "author": "James Jongho Kim",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/april9288/sori/issues"
-  },
-  "homepage": "https://github.com/april9288/sori#readme",
   "dependencies": {
+    "ajv": "^6.5.4",
+    "gh-pages": "^2.0.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-scripts": "^1.1.1",
+    "react-scripts": "^2.0.4",
     "recharts": "^1.0.0-beta.10",
     "watson-speech": "^0.34.1"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

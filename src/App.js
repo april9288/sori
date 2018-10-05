@@ -19,8 +19,14 @@ class App extends Component {
 		}
 	}
 
+  componentDidMount() {
+		fetch("https://soriapi.herokuapp.com/")
+		.then(()=>console.log("Wake up API!"))
+		.catch(e=>console.log(e))
+	}
+
   onClick = () => {
-	  	fetch('https://glacial-mountain-75803.herokuapp.com/api/speech-to-text/token')
+	  	fetch('https://soriapi.herokuapp.com/api/speech-to-text/token')
 		  .then(response => response.text())
 		  .then(token => {
 		    const stream = recognizeMic({
@@ -60,7 +66,7 @@ class App extends Component {
   }
 
   analyze = () => {
-	fetch('https://glacial-mountain-75803.herokuapp.com/indico/personas', {
+	fetch('https://soriapi.herokuapp.com/indico/personas', {
 		method: 'post',
 		headers: {'Content-Type' : 'application/json'},
 		body: JSON.stringify({
@@ -74,7 +80,7 @@ class App extends Component {
 	}
 
   analyze_emotion = () => {
-	fetch('https://glacial-mountain-75803.herokuapp.com/indico/emotion', {
+	fetch('https://soriapi.herokuapp.com/indico/emotion', {
 		method: 'post',
 		headers: {'Content-Type' : 'application/json'},
 		body: JSON.stringify({

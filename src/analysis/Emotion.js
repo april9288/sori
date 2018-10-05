@@ -1,13 +1,11 @@
 import React from 'react';
 
 const Emotion = ({emotion}) => {
-	// console.log("emotion : ", emotion);
 	let sorted_data = [];
 	for (let data in emotion) {
 		sorted_data.push([data, emotion[data]]);
 	}; 
 	sorted_data.sort((a,b)=> b[1]- a[1]);
-	// console.log("sorted data is :", sorted_data);
 
 	if (emotion.length === 0) {
 		return (
