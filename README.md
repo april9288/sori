@@ -1,4 +1,4 @@
-# sori : [a sound] in Korean
+# sori
 > Speech Recognition Web App
 
 It's a simple web app that recognizes speech and gives a response with his/her personality. It's built with React.js, Watson's speech recognizing api and Indico's personality analyzing api.
