@@ -1,7 +1,7 @@
 # sori :mega:
 > Test your personality based on your speech!
 
-This web app recognizes your speech :mega: and tells what personality you have. IBM Watson api makes it possible to do speech to text. And then your speech is sent to Indico api which provides amazing funtionalities. Indico api analyzes where you sound emotional :cry: or confident :sunglasses:.
+This web app recognizes your speech :mega: and tells what personality you have. IBM Watson api makes it possible to do speech to text. And then your speech is sent to Indico api which provides amazing funtionalities. Indico api analyzes whether you sound emotional :cry: or confident :sunglasses:.
 Just give it a try. It's a simple web app. Click the link below and open up the website.
 
 To Start, first click "Speak" button. It might take a few seconds to wake up Heroku...:hourglass:
