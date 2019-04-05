@@ -4,6 +4,12 @@
 This web app recognizes your speech :mega: and tells what personality you have. IBM Watson api makes it possible to do speech to text. And then your speech is sent to Indico api which provides amazing funtionalities. Indico api analyzes where you sound emotional :cry: or confident :sunglasses:.
 Just give it a try. It's a simple web app. Click the link below and open up the website.
 
+To Start, first click "Speak" button. It might take a few seconds to wake up Heroku...:hourglass:
+Once it starts listening, then introduce yourself. Then, click "Stop" to let the server stop listening.
+If you want to start over, then click "clear all". Otherwise just scroll down. You will see two buttons. "Persona test" and "Emotion test". Both are provided by Indico api. Try both out. It will give you what personality you have and also tell you what emotion you have. Have fun!
+
+By the way, I won a coding challenge with this web app :trophy: from * [Zero to Mastery](https://github.com/zero-to-mastery/Coding_Challenge-3). It's one of the most popular Udemy online courses. 
+
 * [Sori](https://april9288.github.io/sori/) - this website
 * [Backend Repository](https://github.com/april9288/sori_api) - backend repo
 
